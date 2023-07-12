@@ -39,19 +39,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Software Engineering at Machine Learning Platform
+          company: Intel
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          company_logo: intel-logo
+          location: Shanghai, China
+          date_start: '2022-12-19'
+          date_end: '2022-06-08'
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
+              * Maintained backend support of Intel’s BigDL-Nano to provide acceleration for PyTorch and TensorFlow programs.
+              * Applied Intel Arc series GPU support and Intel’s BigDL-Nano framework tools to accelerate Stable Diffusion’s inferencing on frontend client platform, by halving the latency on average using the best combination.
+              * Added quantization (bfloat16, int8, and int4) support for large language models (LLMs, including ChatGLM, GPT, and LLaMA) to optimize their inference time on both Windows and Linux platforms.
+              * Benchmarked LLM’s performance with Google’s Big-bench tools on distributed clusters by using Intel’s BigDL-Orca.
+              * Supported GitHub CI/CD actions (including unit test workflows) for Intel’s BigDL-LLM new package development.
         - title: Professor of Semiconductor Physics
           company: University X
           company_url: ''
