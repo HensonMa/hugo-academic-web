@@ -52,14 +52,17 @@ sections:
               * Added quantization support for large language models to reduce their inference time.
               * Benchmarked LLM’s performance on distributed clusters by using Intel’s BigDL-Orca.
               * Supported GitHub CI/CD actions for Intel’s BigDL-LLM new package development.
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Research Assistant
+          company: Cornell University
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: cornell
+          location: Ithaca, NY
+          date_start: '2022-03-02'
+          date_end: '2022-09-02'
+          description: |2-
+          * Analyzed PokeBNN’s inference process by breaking down the overall inference time into partial latencies of high-level functional abstractions and low-level TFLite atomic graph operations using Larq benchmarking methods.
+          * Reduced the inference time of PokeBNN on embedded processors by 61.54% by replacing heavy Shortcuts and Activation functions with alternative TensorFlow and Larq efficient MLOps.
+          * Designed two-phase CIFAR10 training of PokeBNN with modified structures using CUDA, obtaining the best validation accuracy of 87.94%.
     design:
       columns: '2'
   - block: accomplishments
