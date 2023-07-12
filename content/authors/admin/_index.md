@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Pingchuan Ma 马平川
+title: Pingchuan Ma
 
 # Full name (for SEO)
 first_name: Pingchuan
@@ -18,7 +18,7 @@ role: Master student in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
+  - name: University of California, San Diego
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
