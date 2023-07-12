@@ -60,9 +60,9 @@ sections:
           date_start: '2022-03-02'
           date_end: '2022-09-02'
           description: |2-
-          * Analyzed PokeBNN’s inference process by breaking down the overall inference time into partial latencies of high-level functional abstractions and low-level TFLite atomic graph operations using Larq benchmarking methods.
-          * Reduced the inference time of PokeBNN on embedded processors by 0.6154 by replacing heavy Shortcuts and Activation functions with alternative TensorFlow and Larq efficient MLOps.
-          * Designed two-phase CIFAR10 training of PokeBNN with modified structures using CUDA, obtaining the best validation accuracy of 0.8794.
+              * Analyzed PokeBNN’s inference process by breaking down the overall inference time into partial latencies of high-level functional abstractions and low-level TFLite atomic graph operations using Larq benchmarking methods.
+              * Reduced the inference time of PokeBNN on embedded processors by 0.6154 by replacing heavy Shortcuts and Activation functions with alternative TensorFlow and Larq efficient MLOps.
+              * Designed two-phase CIFAR10 training of PokeBNN with modified structures using CUDA, obtaining the best validation accuracy of 0.8794.
     design:
       columns: '2'
   - block: accomplishments
