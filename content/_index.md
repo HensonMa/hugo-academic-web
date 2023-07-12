@@ -49,8 +49,8 @@ sections:
           description: |2-
               * Maintained backend support of Intel’s BigDL-Nano to provide acceleration for PyTorch and TensorFlow programs.
               * Applied Intel Arc series GPU support and Intel’s BigDL-Nano framework tools to accelerate Stable Diffusion’s inferencing on frontend client platform.
-              * Added quantization support for large language models to optimize their inference time on both Windows and Linux platforms.
-              * Benchmarked LLM’s performance with Google’s Big-bench tools on distributed clusters by using Intel’s BigDL-Orca.
+              * Added quantization support for large language models to reduce their inference time.
+              * Benchmarked LLM’s performance on distributed clusters by using Intel’s BigDL-Orca.
               * Supported GitHub CI/CD actions for Intel’s BigDL-LLM new package development.
         - title: Professor of Semiconductor Physics
           company: University X
