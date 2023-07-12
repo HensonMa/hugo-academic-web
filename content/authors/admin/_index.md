@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Pingchuan Ma 马平川
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Pingchuan
+last_name: Ma
 
 # Status emoji
 status:
@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Master student in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
