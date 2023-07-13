@@ -50,7 +50,7 @@ sections:
           description: |2-
               * Maintained backend support of Intel’s BigDL-Nano to provide acceleration for PyTorch and TensorFlow programs.
               * Applied Intel Arc series GPU support and Intel’s BigDL-Nano framework tools to accelerate Stable Diffusion’s inferencing on frontend client platform.
-              * Added quantization support for large language models (LLMs, including ChatGLM, GPT, and LLaMA) to reduce their inference time.
+              * Added quantization support for large language models (LLMs from huggingface, including ChatGLM, GPT) using LLaMA.cpp to reduce their inference time.
               * Benchmarked LLM’s performance on distributed clusters by using Intel’s BigDL-Orca.
               * Supported GitHub CI/CD actions for Intel’s BigDL-LLM new package development.
         - title: Research Assistant
