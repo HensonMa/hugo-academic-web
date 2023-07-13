@@ -82,5 +82,5 @@ email: ''
 highlight_name: true
 ---
 
-Pingchuan Ma is a master of science student in Computer Science at University of California, San Diego. His interests cover various topics of machine learning, including interpretable artificial intelligence, deep learning, efficient machine learning (deploy ML at large/on edge), and computer vision. And he is enthusiastic about connecting with worldwide engineers to create common good using computer technologies. 
+Pingchuan Ma is a master of science student in Computer Science at University of California, San Diego. His interests cover various topics of machine learning, including interpretable artificial intelligence, deep learning, efficient machine learning (deploy ML at scale/edge), and computer vision. And he is enthusiastic about connecting with worldwide engineers to create common good using computer technologies. 
 {style="text-align: justify;"}
