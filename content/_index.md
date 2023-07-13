@@ -40,7 +40,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Software Engineering at Machine Learning Platform
-          company: Intel
+          company: Intel Cooperation
           company_url: ''
           company_logo: intel-logo
           location: Shanghai, China
@@ -63,6 +63,28 @@ sections:
               * Analyzed PokeBNN’s inference process by breaking down the overall inference time into partial latencies of high-level functional abstractions and low-level TFLite atomic graph operations using Larq benchmarking methods.
               * Reduced the inference time of PokeBNN on embedded processors by 61.54% by replacing heavy Shortcuts and Activation functions with alternative TensorFlow and Larq efficient MLOps.
               * Designed two-phase CIFAR10 training of PokeBNN with modified structures using CUDA, obtaining the best validation accuracy of 87.94%.
+        - title: Research Assistant
+          company: John Hopcroft Center, Shanghai Jiao Tong University
+          company_url: 'https://jhc.sjtu.edu.cn/'
+          company_logo: SJTU
+          location: Shanghai, China
+          date_start: '2021-09-02'
+          date_end: '2022-09-02'
+          description: |2-
+              * Trained neural networks to lower the interaction order among input variables to improve their adversarial robustness.
+              * Generated adversarial image samples from back-propagation of PGD-20 attack on adversarial-trained ResNet18.
+              * Added untrained regional fully-connected layers implemented by PyTorch modules to do classification task in training, which yields 73.2% improvement on the adversarial robustness of ResNet18 compared with the original one.
+              * Designed a new loss function based on Hessian matrix to lower the high-order gradient influence between different regions of feature maps in neural networks.
+        - title: Research Assistant
+          company: DCE Lab, Shanghai Jiao Tong University
+          company_url: 'https://en.sjtu.edu.cn/'
+          company_logo: SJTU
+          location: Shanghai, China
+          date_start: '2021-09-02'
+          date_end: '2022-09-02'
+          description: |2-
+              * Analyzed annual data from COSCO SHIPPING Lines by Correlation Analysis and Principal Component Analysis to extract important features using Pandas and NumPy.
+              * Built a new time-series model [Long-short Term Memory framework with Empirical Mode Decomposition and Attention mechanism] using TensorFlow Keras to help predict daily shipment prices and market demands, which reduced the error rate by 52.31% on average compared to the baseline model RNN.
     design:
       columns: '2'
   - block: accomplishments
