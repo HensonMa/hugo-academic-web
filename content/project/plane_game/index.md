@@ -1,8 +1,9 @@
 ---
 title: Vintage 2D Plane Wars Video Game
-summary: A video game supporting interaction between PC and embedded processor written by C and PyGame.
+summary: A video game supporting interaction between PC and embedded processor written by C and PyGame. UART communication, TSL (Touch
+   Sensing Input) module, and button controls in KL46 sub-family are well utilized.
 tags:
-  - Demo
+  - videogame
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
